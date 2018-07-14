@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<h1>{{title}}</h1>
+	{% for item in list %}
+		
+			<h4>{{item["name"]}}</h4>
+			{{item["description"]}}<br>
+			<a href="{{item['url']}}">Click here to know more</a>
+			<br>
+		<br><br>
+		------------------------------------------------------------------<br>
+	{% endfor %}
+
+</body>
+</html>

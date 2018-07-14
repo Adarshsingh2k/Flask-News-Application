@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<h1>{{title}}</h1>
+	 {% for item in list %}
+			 <h2>{{item["title"]}}</h2>
+			<p>by {{item["author"]}}<br>
+			Published:{{item["publishedAt"]}}<br>
+			{{item["description"]}}<br>
+			<a href="{{item['url']}}">Click here to know more </a><br>
+			<img src="{{item['urlToImage']}}">	
+			</p>		<br>
+		<br><br>
+		------------------------------------------------------------------
+		<br>
+	{% endfor %}
+
+</body>
+</html>
