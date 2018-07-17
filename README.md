@@ -1,10 +1,21 @@
-### Flask-News-Application:
+## Flask-News-Application:
 # The Times Of A Smarter India
 
-A simple Flask app to categorise and update news.
+A simple Flask application with a login authentication system that gives daily news updates based on different categories like Business, Technical, Entertainment and General. There's also an option to view the top headlines.
 
-It also contains a login authentication system that one can access by
+Quick start
+-----------
 
-username: 'abc'
+1. Run `python tabledef.py`.
 
-password: 'xyz'.
+2. Run `python dummy.py`.
+
+3. Run `python NewsApp.py`.
+
+4. Visit http://0.0.0.0:5000 and authenticate using:
+
+     username: 'abc'
+
+     password: 'xyz'.
+
+5. To log out, visit http://0.0.0.0:5000/logout .
