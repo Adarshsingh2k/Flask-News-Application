@@ -19,3 +19,17 @@ Quick start
      password: 'xyz'.
 
 5. To log out, visit http://0.0.0.0:5000/logout .
+
+## HOMEPAGE:
+![Homepage](https://github.com/Gunnika/Flask-News-Application/blob/master/Homepage%20screenshot.png?raw=true)
+
+
+
+## HEADLINES:
+![Homepage](https://github.com/Gunnika/Flask-News-Application/blob/master/Top%20Headlines%20screenshot.png?raw=true)
+
+
+
+## BUSINESS NEWS:
+![Homepage](https://github.com/Gunnika/Flask-News-Application/blob/master/Business%20news%20screenshot.png?raw=true)
+
